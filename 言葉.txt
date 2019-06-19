@@ -1,0 +1,78 @@
+手順　てじゅん　Procedure　＊
+
+実行　じっこう　Execution　＊
+
+設定 せったい　Configuration
+
+間違い　まちがい　Mistake
+
+接続　せつぞく　Connection
+
+差し込み　さしこみ　Insertion
+
+右上部　みぎじょうぶ　Upper right
+
+薄色　うすいろ	Light color
+
+選択する　せんたくする　Select
+
+確認する　かくにんする　Confirm
+
+試験　しけん　Test、Exam、Examination
+
+装置　そうち　Equipment
+
+利用　りよう　Use
+
+開発　かいはつ　Development of
+
+作成　さくせい　Making
+
+作成方法　さくせいほうほう　How to make
+
+検証　けんしょう　Verificaiton
+
+制約　せいやく　Restrictions　＊
+
+下線　かせん　Underline
+
+今後　こんご　From now on
+
+改修　かいしゅう　Repair、Improvement
+
+解消する　かいしょうする　Eliminate
+
+予定　よてい　Plan
+
+構築　こうちく　Construction　＊
+
+参照　さんしょう　Reference
+
+試験用　しけんよう　Test
+
+情報　じょうほう　Information
+
+暗号化　あんごうか　Encryption
+
+構成　こうせい　Constitution、Organization　＊
+　
+実機　じっき　Real machine
+
+運用　うんよう　Operation		運用方針　Operation policy		
+
+方針　ほうしん　Policy
+
+箇所　かしょ　Point、Place
+
+機能　きのう　Function
+
+	
+
+
+
+
+
+
+
+
+
