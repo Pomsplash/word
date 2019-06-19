@@ -66,6 +66,29 @@
 
 機能　きのう　Function
 
+変更　へんこう　Change
+
+書き込む　かきこむ　Fill in
+
+正常　せいじょう　Normal
+
+復帰　ふっき　Return
+
+異常　いじょう　Error、Abnormality
+
+指定　してい	Specification、Assignment	指定する　Specify
+
+編集　へんしゅう　Editing
+
+行う　おこなう　Perform、Do
+
+
+
+
+
+
+
+
 	
 
 
