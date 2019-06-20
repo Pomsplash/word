@@ -1,3 +1,4 @@
+２０１９年０６月１９日
 手順　てじゅん　Procedure　＊
 
 実行　じっこう　Execution　＊
@@ -46,8 +47,8 @@
 
 構築　こうちく　Construction　＊
 
-参照　さんしょう　Reference
-
+参照　さんしょう　Reference　＊
+　
 試験用　しけんよう　Test
 
 情報　じょうほう　Information
@@ -87,6 +88,108 @@
 値　あたい　Value
 
 定義　ていぎ　Definition
+
+定義する　ていぎする　Define　＊
+
+本物　ほんもの　Real thing
+
+２０１９年０６月２０日
+
+起動する　きどうする　Start
+
+移動する　いどうする　Move
+
+移行　いこう　Migration
+
+認証　にんしょう　Authentication
+
+以降　いこう　Latter
+
+変更する　へんこうする　Change
+
+この辺　このけん　Around here
+
+選びする　えらびする　Choose
+
+記憶する　Memorize、Remember
+
+追加　ついか　Add to		追加する　To add
+
+展開　てんかい　Deploy
+
+従い　したがい　Follow
+
+含まれている　ふくまれている　Include
+
+削除する　さくじょうする　　Delete
+
+既存　きぞん	Existing
+
+負荷　ふか　Load
+
+基本的に　きほんてきに　Basically
+
+使用率　しようりつ　Use rate
+
+方法　ほうほう　Method
+
+算出する　さんしゅつする　Calculate
+
+具体的に　ぐたいてきに　Specifically
+
+あたり	Per		ー＞　あたりどれだけ　How much per
+
+用いる　もちいる　Use
+
+記録　きろく　Record
+
+開始　・　停止　する	かいし　・　ていし	Start / Stop
+
+識別する　しきべつする　Identify
+
+固有　こゆう　Unique
+
+受信　じゅしん　Receive
+
+CPU負荷確認このセクションを編集
+linux環境
+　（不要？　基本的にはtopコマンドでcpu使用率を確認する。）
+
+このセクションを編集
+or1k環境
+HSアプリを使用する方法
+　HSアプリのIDLEタスクが時間あたりどれだけ実行中であるかを、IDLEタスク内でインクリメントしているカウンタから算出する。
+　具体的には、IDLEタスクの1ループの処理にかかる時間をアセンブラコードから算出し、
+　1秒に何個カウンタが増加しているかを調べることで、1秒間中にIDLEタスクが実行中の時間が算出できる。
+手順
+　1. HSアプリにおいて、"IDLE_TASK_PERFORMANCE_CHECK"をdefineで設定する。
+　　　→IDLEタスクが、アセンブラコードを表示するものに切り替わる。(hs_custom.cを参照)
+　2. 表示したアセンブラコードを、minicomによりファイル出力する。
+　3. 処理時間を算出。
+Performance Logを使用する方法
+　cFE/cFSのperformance logを用いることで、
+　ソースコード上のパフォーマンスログ測定開始、停止箇所の時刻をそれぞれ取得できる。
+　※ログのフォーマットは、cfe_es_perfdata_typedef.h を参照。
+　
+　- ログの記録は、コマンドにより開始/停止する。
+　　(CFE_ES_PERF_STARTDATA_CC, CFE_ES_PERF_STOPDATA_CC)
+　- ログは固有のIDで識別する。("XX_perfids.h"などで定義している)
+　- コード上の開始/停止位置は、CFE_ES_PerfLogEntry(XX_YYYY_PERF_ID)、CFE_ES_PerfLogExit(XX_YYYY_PERF_ID)
+　　を挿入することで指定する。※(XX: アプリ名, YYYY: 説明など)
+　- ログは、多くのアプリで、SBからメッセージ受信後に開始位置、処理終了後に停止位置を設定している。
+　　開始-停止位置間の性能しか取得できない点で、HSアプリを使用する方法と異なる。
+　- パフォーマンスログは、専用の解析ツールがcFE/cFSに付属している。
+　　これにより解析は容易である。
+手順
+　1. ESアプリにおいて、"PRINT_PERFLOG"をdefineで設定する。
+　　　→パフォーマンスログ記録停止コマンド実行時に、ログの内容が表示される。(cfe_es_perf.cを参照)
+　2. 表示したログの内容を、minicomによりファイル出力する。(バイナリ。ログ前後に表示開始を示す"STARTFILE", 終了を示す"ENDFILE"あり)
+　3. 解析ツールを使用する。
+ファイル
+
+
+
+
 
 
 
