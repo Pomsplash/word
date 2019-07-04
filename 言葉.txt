@@ -188,8 +188,41 @@
 
 異常　いじょう　Abnormal
 
-　　
+２０１９年０７月０６日
 
+異なる　ことなる　Different
+
+位置　いち	Position
+
+特定する　とくていする	Identify
+
+処理　しょり	Processing
+
+了解する　りょうかいする　Acknowledgement
+
+要　	よう	Need、Required
+	
+排他　はいた	Exclusive
+
+太陽方向処理	たいようほうこうしょり　Solar direction processing
+
+太陽　たいよう	Solar
+
+方向　ほうこう　Direction
+
+検出　けんしゅつ　Detection
+
+日照　にっしょう　Sunshine
+
+視野　しや　	　Field of view
+
+計算　けいさん		Calculation
+
+変換する	へんかんする	Conversion
+
+
+
+	
 
 
 
