@@ -166,9 +166,10 @@
 
 表　ひょう　Table
 
+入力　にゅうりょく　Input
+
 出力　しゅつりょく　Output
 
-入力　りょうりょく　Input
 
 変換　へんかん　Conversion
 
@@ -220,9 +221,40 @@
 
 変換する	へんかんする	Conversion
 
+２０１９年０７月０５日
 
+本日　		ほんじつ		Today
 
-	
+休暇　		きゅうか　		Holiday、Day off
+
+実施する	じっしする　		Carry out
+
+同時に　	どうじに		While
+
+位置　		いち			Position
+
+有効　		ゆうこう　		Effectiveness
+
+無し　	無　　	なし			None
+
+処理　		しょり			Processing
+
+行う		おこなう		Do
+
+抽出する	ちゅうしゅつする	Extract
+
+初期起動	しょききどう		Initial start
+
+地上		ちじょう		Below
+
+姿勢		しせい			Posture、Attitude
+
+呼び出し　	よびだし		Call
+
+書き込み	かきこみ		Entry、Writing
+
+不明		ふめい			Unknown
+
 
 
 
